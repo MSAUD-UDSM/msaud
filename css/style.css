@@ -1,0 +1,78 @@
+body{
+    overflow-x: hidden;
+    margin-top: 102px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navbar{
+    box-shadow: 3px 3px 10px #0a8306;
+    opacity: 0.9;
+    background: rgb(230, 245, 26);
+    border-left: #444 3px solid;
+    
+
+  }
+
+    .card-header{
+        background-color: rgb(221, 241, 163);
+        cursor: pointer;
+    }
+
+
+.video-container{
+    background: rgb(34, 228, 9);    
+}
+
+.navbar .nav-link {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url('../img/ramadan-2412453__340.jpg');
+    background-size: cover; 
+}
+.carousel-image-2 {
+    background: url('../img/whiemosque.jpg');
+    background-size: cover; 
+}
+.carousel-image-3 {
+    background: url('../img/redmosque.jpg');
+    background-size: cover; 
+}
+.carousel-image-4 {
+    background: url('../img/UNIT31_UDSM\ Library.jpg');
+    background-size: cover; 
+}
+.carousel-image-5 {
+    background: url('../img/maftah.jpg');
+    background-size: cover; 
+}
+.carousel-image-6 {
+    background: url('../img/makka.jpg');
+    background-size: cover; 
+}
+.carousel-image-7 {
+    background: url('../img/diploma-1390785_1920.png');
+    background-size: cover; 
+}
+.carousel-image-8 {
+    background: url('../img/pic+UDSM.jpg');
+    background-size: cover; 
+}
+#video-play{
+    position: relative;
+    min-height: 200px;
+    /* background: url('../img/pic.jpg'); */
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(216, 169, 15);
+}
+
+#video-play a{
+    color: rgb(247, 10, 10);
+}
