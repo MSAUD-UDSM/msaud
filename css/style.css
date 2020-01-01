@@ -7,8 +7,8 @@ body{
 .navbar{
     box-shadow: 3px 3px 10px #0a8306;
     opacity: 0.9;
-    background: rgb(230, 245, 26);
-    border-left: #444 3px solid;
+    background: rgb(225, 225, 230);
+    border-left: rgb(8, 114, 31) 3px solid;
     
 
   }
