@@ -939,7 +939,7 @@
                         <div class="card-body text-white bg-dark">
                             <h4 class="text-center">Tafadhali Jaza Fomu Hii Kuwasiliana Nasi</h4>
                             <hr>
-                            <form action="contact.php" method="POST">
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -1009,11 +1009,12 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <input type="submit" value="Submit" id="submit"
-                                                class="btn btn-outline-success btn-block"></input>
+                                                class="btn btn-outline-success btn-block">
                                         </div>
                                     </div>
                                 </div>
                             </form>
+                            
                         </div>
                     </div>
                 </div>

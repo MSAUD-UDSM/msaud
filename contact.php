@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 // //Taking all values
 $fname = $_POST['fname'];
@@ -19,3 +19,4 @@ if ($send) {
 } else {
     echo "still loading have patience........";
 }
+?>
