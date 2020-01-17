@@ -9,7 +9,7 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>msaud.udsm.ac.tz</title>
 </head>
 
@@ -939,84 +939,87 @@
                         <div class="card-body text-white bg-dark">
                             <h4 class="text-center">Tafadhali Jaza Fomu Hii Kuwasiliana Nasi</h4>
                             <hr>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text">
-                                                    <i class="fas fa-user"></i>
-                                                </span>
+                            <form action="contact.php" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-user"></i>
+                                                    </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="Jina La Kwanza"
+                                                    id="fname" name="fname">
                                             </div>
-                                            <input type="text" class="form-control" placeholder="Jina La Kwanza">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text">
-                                                    <i class="fas fa-user"></i>
-                                                </span>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-user"></i>
+                                                    </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="Jina La Mwisho"
+                                                    id="lname" name="lname">
                                             </div>
-                                            <input type="text" class="form-control" placeholder="Jina La Mwisho">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text">
-                                                    <i class="fas fa-envelope"></i>
-                                                </span>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-envelope"></i>
+                                                    </span>
+                                                </div>
+                                                <input type="email" class="form-control" placeholder="Barua Pepe"
+                                                    id="email" name="email">
                                             </div>
-                                            <input type="email" class="form-control" placeholder="Barua Pepe">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text">
-                                                    <i class="fas fa-phone"></i>
-                                                </span>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-phone"></i>
+                                                    </span>
+                                                </div>
+                                                <input type="tel" class="form-control" placeholder="Namba Ya Simu"
+                                                    id="phone" name="phone">
                                             </div>
-                                            <input type="tel" class="form-control" placeholder="Namba Ya Simu ">
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <span class="input-group-text">
-                                                <i class="fas fa-pencil-alt"></i>
-                                            </span>
-                                            <textarea name="editor1" class="form-control"></textarea>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-pencil-alt"></i>
+                                                </span>
+                                                <textarea type="text" name="editor1" class="form-control"
+                                                    id="msg" name="msg"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="submit" value="Submit" id="submit"
+                                                class="btn btn-outline-success btn-block"></input>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="submit" value="Submit"
-                                            class="btn btn-outline-success btn-block"></input>
-                                    </div>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
 
 
     <!-- FOOTER -->
