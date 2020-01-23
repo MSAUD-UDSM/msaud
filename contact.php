@@ -16,7 +16,7 @@ $send = mail($to, $fname, $output . "\n\n***This message has been sent from MSAU
 if ($send) {
 
     echo "successfully";
-    header("Location: http://127.0.0.1:5500/index.html");
+    header("Location: https://msaud-udsm.github.io/msaud/#home-section");
 } else {
     echo "still loading have patience........";
 }
