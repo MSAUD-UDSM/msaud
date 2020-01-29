@@ -6,7 +6,7 @@ $lname = $_POST['lname'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $msg = $_POST['msg'];
-$output = "Name: " . $fname . "\nPhone: " . $phone . "\n\nMessage: " . $msg;
+$output = "Name: " . $fname . "\nPhone: " . $phone . "\nMessage: " . $msg;
 
 $to = 'msaud.udsm@gmail.com';
 $headers = 'FROM: ' . $email . '';
@@ -15,8 +15,10 @@ $send = mail($to, $fname, $output . "\n\n***This message has been sent from MSAU
 
 if ($send) {
 
+    header("Location: https://msaud-udsm.github.io/msaud/index.html");
     echo "successfully";
-    header("Location: https://msaud-udsm.github.io/msaud/#home-section");
+    exit();
+
 } else {
     echo "still loading have patience........";
 }
