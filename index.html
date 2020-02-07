@@ -24,15 +24,15 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto ">
                     <li class="nav-item px-2">
                         <a href="#home-section" class="nav-link" style="color: rgb(5, 102, 5)"><i
                                 class="fas fa-home"></i></a>
                     </li>
-                    <li class="nav-item px-2">
+                    <li class="nav-item px-2 ">
                         <a href="#administration-section" class="nav-link" style="color: rgb(5, 102, 5)">Uongozi</a>
                     </li>
-                    <li class="nav-item px-2">
+                    <li class="nav-item px-2 " >
                         <a href="#duruus-section" class="nav-link" style="color: rgb(5, 102, 5)">Duruus</a>
                     </li>
 
@@ -66,10 +66,25 @@
 
                 </div>
 
+                <!-- <div class="audio-player"> -->
                 <div>
-                    <img src="img/whiemosque.jpg" width="100%">
+
+                    <img src="img/whiemosque.jpg" width="100%;" height="370px">
+                    <div class="centered">
+            
+                            <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 17px; text-align: center;">
+                                </h3>
+        
+                            <audio style="max-width: 100%; width: 100%; display: none;" src="audios/VIJANA_ACHENI_JAZBA.mp3"
+                                controls="false" autoplay>
+                            </audio>
+                             
+
+                    </div>
+
 
                 </div>
+
                 <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -563,7 +578,7 @@
                                         </td>
                                         <td>
                                             <p style="text-align: center;">المقالة: نصيحة إلى طلاب العلم في مسود
-                                            </p >
+                                            </p>
                                         </td>
                                         <td>
                                             <p style="text-align: center;">لجنة العلم مسود</p>
@@ -656,7 +671,7 @@
                                         </td>
                                         <td>
                                             <p style="text-align: center;">الأربعون النووي
-                                            </p >
+                                            </p>
                                         </td>
                                         <td>
                                             <p style="text-align: center;">مسود أستاذة</p>
@@ -944,7 +959,7 @@
                         <div class="card-body text-white bg-dark">
                             <h4 class="text-center">Tafadhali Jaza Fomu Hii Kuwasiliana Nasi</h4>
                             <hr>
-                            <form method="post" >
+                            <form method="post">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -1006,8 +1021,8 @@
                                                 <span class="input-group-text">
                                                     <i class="fas fa-pencil-alt"></i>
                                                 </span>
-                                                <textarea type="text"  class="form-control"
-                                                    id="msg" name="msg"></textarea>
+                                                <textarea type="text" class="form-control" id="msg"
+                                                    name="msg"></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -1019,7 +1034,7 @@
                                     </div>
                                 </div>
                             </form>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -1068,6 +1083,12 @@
 
         // Get the current year for the copyright
         $('#year').text(new Date().getFullYear());
+
+        $(function () {
+            $(document).click(function (event) {
+                $('.navbar-collapse').collapse('hide');
+            });
+        });
 
         // Init Scrollspy
 
