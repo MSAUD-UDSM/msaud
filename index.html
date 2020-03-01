@@ -32,7 +32,7 @@
                     <li class="nav-item px-2 ">
                         <a href="#administration-section" class="nav-link" style="color: rgb(5, 102, 5)">Uongozi</a>
                     </li>
-                    <li class="nav-item px-2 " >
+                    <li class="nav-item px-2 ">
                         <a href="#duruus-section" class="nav-link" style="color: rgb(5, 102, 5)">Duruus</a>
                     </li>
 
@@ -58,11 +58,8 @@
             <div class="col-md-8">
                 <div class="text-dark bg-warning">
                     <marquee style="color:darkblue;" onmouseover="this.stop();" onmouseout="this.start();">
-                        * Uongozi wa wanafunzi wa kiislamu chuo kikuu cha Dar es salaam
-                        (MSAUD) unayo furaha kuwatangazia uwepo wa Dawrah (seminar)
-                        ya kielimu ambayo inatarajiwa kufanyika kuanzia tarehe
-                        29/02/2020 - 09/03/2020 Bi idhni llaah, ktk Markaz Shaykhil
-                        Islaam Ibn Taymiyyah iliyopo Pongwe - Tanga.</marquee>
+                        * Semina ya kielimu kwa wanafunzi wa vyuo vikuu inaendelea ktk Markaz Shaykhil
+                        Islaam Ibn Taymiyyah iliyopo Pongwe - Tanga. Mihadhara na darsa za kuanzia baada ya maghrib zitakuwa zikirushwa live katika radio yetu.</marquee>
 
                 </div>
 
@@ -70,15 +67,19 @@
                 <div>
 
                     <img src="img/whiemosque.jpg" width="100%;" height="370px">
-                    <div class="centered">
-            
-                            <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 17px; text-align: center;">
-                                </h3>
-        
-                            <audio style="max-width: 100%; width: 100%; display: none;" src="audios/VIJANA_ACHENI_JAZBA.mp3"
-                                controls="false" autoplay >
-                            </audio>
-                    </div>
+                    <!-- <div class="toped form-group" style="background-color: rgb(55, 177, 18);">
+                        <a href="https://docs.google.com/spreadsheets/d/1V5k2SqHcjtT4EiSU18I-aHcXv1yel3moAS7MTusagZo/edit?usp=sharing" class="btn btn-outline-warning btn-block"
+                            style="color:rgb(245, 237, 244)"><b> ORODHA YA WASHIRIKI WA DAWRAH</b></a>
+
+                    </div> -->
+                    <!-- <div class="centered">
+                        <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 17px; text-align: center;">
+                        </h3>
+
+                        <audio style="max-width: 100%; width: 100%; display: none;" src="audios/VIJANA_ACHENI_JAZBA.mp3"
+                            controls="false" autoplay>
+                        </audio>
+                    </div> -->
                 </div>
 
                 <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -689,21 +690,26 @@
                         nje ya uwezo. Baadhi ya walimu na Mashekh wana dharura
                         zinazowazuia kuendesha darsa kwa kipindi hiki. -->
 
-                        NB: Darsa zote zimesimama kwa kipindi hiki ambacho wanafunzi wanaelekea katika mitihani ya semester ya kwanza. Hivyo darsa zitaendelea baada ya watu kurudi semester ya pili in shaa Allah
+                        NB: Darsa zote zimesimama kwa kipindi hiki ambacho wanafunzi wanaelekea katika mitihani ya
+                        semester ya kwanza. Hivyo darsa zitaendelea baada ya watu kurudi semester ya pili in shaa Allah
                     </i>
                 </p>
             </div>
             <div class="row">
                 <div class="container py-2" style="background-color: rgb(181, 223, 140);">
                     <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 17px; text-align: center;">
-                        Radio ya Mawaidha </h3>
+                        Live Duruus (Dawrah ya Wanavyuo) </h3>
 
-                    <audio style="max-width: 100%; width: 100%;" src="http://173.255.234.155:8099/rugema"
+                        <audio id="singleAudioPlayerRadio" style="display: block; width: 100%; padding: 40px 0;" preload="none" controls="" autoplay=""><!--  controls="controls" -->
+                            <source src="http://173.255.234.155:8020/stream" type="audio/mpeg">
+                          </audio>
+
+                    <!-- <audio style="max-width: 100%; width: 100%;" src="http://173.255.234.155:8099/rugema"
                         controls="controls"></audio>
 
 
                     <iframe style="height: 55px; overflow: hidden; width: 100%;"
-                        src="http://173.255.234.155:8099/currentsong?sid=1" frameborder="0"></iframe>
+                        src="http://173.255.234.155:8099/currentsong?sid=1" frameborder="0"></iframe> -->
 
 
                     <!-- 
@@ -1077,6 +1083,10 @@
     <script src="https://cdn.ckeditor.com/4.11.2/standard/ckeditor.js"></script>
 
     <script>
+
+
+
+
 
         // CKEDITOR.replace('editor1');
 

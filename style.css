@@ -14,6 +14,13 @@ body{
     background: rgb(225, 225, 230);
     border-left: rgb(8, 114, 31) 3px solid; 
   }
+  .toped{
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+  }
   .centered {
     position: absolute;
     top: 50%;
